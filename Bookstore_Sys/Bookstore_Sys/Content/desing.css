@@ -1,0 +1,66 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Barlow+Semi+Condensed:wght@100;400&family=Work+Sans&display=swap');
+
+/* Style for navbar */
+.navbar-inverse {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    height: 68px !important;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #000000 !important;
+    border-color: #000000 !important;
+    font-weight: 200;
+    font-size: larger;
+}
+/* Title of brand */
+.navbar-brand tit-nav {
+    font-weight: 500;
+}
+
+.navbar-brand {
+    color: black !important;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+/* For body */
+body {
+    background-color: #E8F3F1;
+    font-family: 'Average Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Icon in navbar */
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #181818;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    border-color: #E6F4F1 !important;
+    background-color: #E6F4F1;
+}
+/* Icon in navbar */
+.jumbotron {
+    background-color: white;
+}
+
+.cards {
+    background-color: #FFBE40 !important;
+}
+
+.icon-nav-ti {
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
+    margin-right: 20px;
+}
